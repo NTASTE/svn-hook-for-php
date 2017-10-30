@@ -10,9 +10,13 @@ a very simple svn hook for php
 
 3:将源码中的pre-commit.tmpl文件上传到仓库下的/hooks目录下，并执行以下命令
   ``` Bash
-       mv pre-commit.tmpl pre-commit
-       chmod 755 pre-commit 
+       (1): mv pre-commit.tmpl pre-commit
+       (2): chmod 755 pre-commit 
   ```
+4:将源码中的SvnCheck.php脚本文件上传到任意目录下(假设上传到/home/www目录下)
+
+搞定。
+  
 
 
 
