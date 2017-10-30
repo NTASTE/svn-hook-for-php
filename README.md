@@ -8,6 +8,12 @@ a very simple svn hook for php
 
 2:提前安装SvnServer,并创建好一个仓库
 
+3:将源码中的pre-commit.tmpl文件上传到仓库下的/hooks目录下，并执行以下命令
+  ```
+       mv pre-commit.tmpl pre-commit
+       chmod 755 pre-commit 
+  ```
+
 
 
 
